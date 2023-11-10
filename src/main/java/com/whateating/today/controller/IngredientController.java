@@ -1,7 +1,9 @@
 package com.whateating.today.controller;
 
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController(value = "/ingredient")
+@RestController
+@RequestMapping(value = "/ingredients")
 public class IngredientController {
 }
